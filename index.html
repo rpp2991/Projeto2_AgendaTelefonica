@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <title>Agenda de Telefone</title>
+</head>
+
+<body>
+    <h1>Projeto 2 Módulo 8: Agenda de Telefone</h1>
+    <h2>Adicionar Contato</h2>
+    <p>Insira por favor, nos campos abaixo, o nome e o número de telefone do contato que você deseja cadastrar na lista.
+    </p>
+    <form id="form-contato">
+        <label for="nome-contato">Nome:</label>
+        <input type="text" id="nome-contato">
+        <br><br>
+        <label for="telefone-contato">Nº Telefone:</label>
+        <input type="text" id="telefone-contato">
+        <br><br>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <h1>Agenda de Contatos</h1>
+    <table id="tabela-contatos">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Nº Telefone</th>
+            </tr>
+        </thead>
+        <tbody id="corpo-tabela">
+        </tbody>
+    </table>
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+<footer>
+    <p> Desenvolvido para fins de estudo pelo aluno: Renan Pires </p>
+</footer>
+
+</html>
